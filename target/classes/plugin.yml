@@ -1,7 +1,0 @@
-name: PluginCore
-version: '1.0'
-main: me.ikevoodoo.plugincore.PluginCore
-api-version: 1.17
-load: STARTUP
-authors: [ IkeVoodoo ]
-description: Plugin core for all of my plugins!
