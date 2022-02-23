@@ -1,2 +1,5 @@
 # PluginCore
  Plugin core for my plugins, plus other stuff
+
+# Maven
+Coming soon™️
