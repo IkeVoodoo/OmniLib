@@ -1,0 +1,7 @@
+name: PluginCore
+version: '${project.version}'
+main: me.ikevoodoo.plugincore.PluginCore
+api-version: 1.17
+load: STARTUP
+authors: [ IkeVoodoo ]
+description: Plugin core for all of my plugins!
