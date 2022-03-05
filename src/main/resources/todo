@@ -1,0 +1,62 @@
+- Command lib
+- Inventory lib
+- Particle lib
+- Custom advancement lib
+- Serializing lib
+
+
+- Particle lib:
+   Handles all the particle effects, and custom shapes.
+
+   Features:
+      - Custom shapes with different colors
+
+- Custom advancements lib:
+   Handles the creation of custom advancements.
+
+   Features:
+      - Create custom advancements & Pages
+      - Give custom advancements to players
+
+- Command lib:
+   Handles all that's commands.
+
+   Features:
+     - Command registration with annotations
+     - Argument parsing
+     - Powerful subcommand system
+
+- Inventory lib:
+  Handles everything around inventories.
+
+  Features:
+    - Sorting
+      - Weighted sorting          - Done
+      - Normal sorting            - Done
+
+    - Creating inventories
+    - Creating item stacks
+    - Custom skulls
+    - Fill                        - Done
+    - Filtering
+    - Clear                       - Done
+    - Copy
+    - Mirroring                   - Done
+    - Pagination
+
+- Serializing lib:
+  Handles serializing and deserializing
+
+  Features:
+    - Serialization
+      - Inventories
+      - Item stacks               - Done
+      - Blocks
+      - Entities
+      - Players
+    - Deserialization
+      - Inventories
+      - Item stacks               - Done
+      - Blocks
+      - Entities
+      - Players
