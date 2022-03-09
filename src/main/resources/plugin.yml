@@ -1,7 +1,7 @@
-name: PluginCore
+name: OmniLIB
 version: '${project.version}'
-main: me.ikevoodoo.plugincore.PluginCore
+main: me.ikevoodoo.omnilib.OmniLIB
 api-version: 1.17
 load: STARTUP
 authors: [ IkeVoodoo ]
-description: Plugin core for all of my plugins!
+description: Library for other plugins to use, no features are provided.

@@ -55,6 +55,7 @@ public class CommandRegistry {
         BukkitCommand command = new BukkitCommand(cmd.name()) {
             @Override
             public boolean execute(CommandSender sender, String label, String[] args) {
+                cmd.execute(sender, label, args);
                 return true;
             }
         };

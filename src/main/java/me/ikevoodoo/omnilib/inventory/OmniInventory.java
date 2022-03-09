@@ -44,9 +44,7 @@ public class OmniInventory {
     }
 
     public void clear() {
-        for (int i = 0; i < inventory.getSize(); i++) {
-            inventory.setItem(i, null);
-        }
+        inventory.clear();
         contentsUpdated();
     }
 

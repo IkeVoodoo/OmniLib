@@ -3,28 +3,59 @@
 - Particle lib
 - Custom advancement lib
 - Serializing lib
+- Geometry Lib
+- Storage lib
+- Action lib
+- Timed Lib
 
+
+- Timed lib:
+   Allows for timed events to occur.
+   Events can be delayed or repeated.
+   Events can be async or sync.
+
+   Features:
+     - Handles all timed events
+
+- Action lib:
+   Handles item actions
+
+  Features:
+    - Easy handling of rick/left/drop clicks
+
+- Storage lib:
+   Handles data for blocks, items and entities.
+
+   Features:
+    - Store data for blocks, items and entities
+
+- Geometry lib:
+   Geometry lib for bukkit
+
+   Features:
+    - Polygonal regions
+    - Region populators
 
 - Particle lib:
    Handles all the particle effects, and custom shapes.
 
    Features:
-      - Custom shapes with different colors
+    - Custom shapes with different colors
 
 - Custom advancements lib:
    Handles the creation of custom advancements.
 
-   Features:
-      - Create custom advancements & Pages
-      - Give custom advancements to players
+  Features:
+    - Create custom advancements & Pages
+    - Give custom advancements to players
 
 - Command lib:
    Handles all that's commands.
 
-   Features:
-     - Command registration with annotations
-     - Argument parsing
-     - Powerful subcommand system
+  Features:
+    - Command registration with annotations
+    - Argument parsing
+    - Powerful subcommand system
 
 - Inventory lib:
   Handles everything around inventories.
