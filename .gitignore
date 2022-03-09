@@ -4,6 +4,8 @@
 # Maven
 target/
 
+*.iml
+
 # Compiled class file
 *.class
 
